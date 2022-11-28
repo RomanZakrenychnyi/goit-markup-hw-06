@@ -914,10 +914,54 @@ body {
   outline: transparent;
 }
 
-.modal-checkbox {
-  margin-bottom: 20px;
+.message:focus + .modal-icon,
+.message:focus + .modal-icon {
+  fill: var(--blue);
 }
 
+
+/* ==========Чекбокс========== */
+
+.form-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.form-checkbox-label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--grey);
+}
+
+.custom-checkbox-icon {
+  margin-right: 7px;
+  width: 16px;
+  height: 15px;
+  border: 2px solid black;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.form-checkbox-input:checked+.custom-checkbox-icon {
+  background-color: var(--blue);
+  fill: var(--white);
+  border: transparent;
+}
+
+.custom-checkbox-sub-icon {
+  display: none;
+}
+
+.form-checkbox-input:checked+.custom-checkbox-icon .custom-checkbox-sub-icon {
+  display: block;
+}
+
+/* ==========Модалка========== */
 .modal-icon {
   position: absolute;
   left: 12px;
@@ -944,6 +988,7 @@ body {
 
 .modal:hover+.modal-icon,
 .modal:focus+.modal-icon {
+  border-color: var(--blue);
   fill: var(--blue);
 }
 
