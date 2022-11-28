@@ -461,6 +461,8 @@
         </div>
       </div>
     </footer>
+
+    <!-- Модальне вікно -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="button-close" data-modal-close>
@@ -468,8 +470,21 @@
             <use href="./img/sprite.svg#icon-close"></use>
           </svg>
         </button>
+        <p class="modal-box">Залиште свої дані, ми вам передзвонимо</p>
+        <div class="modal-inputs">
+          <p class="modal-tittle">Ім'я</p>
+          <input class="message" type="text" />
+          <p class="modal-tittle">Телефон</p>
+          <input class="message" type="text" />
+          <p class="modal-tittle">Пошта</p>
+          <input class="message" type="text" />
+          <p class="modal-tittle">Коментар</p>
+          <textarea class="textarea message" name="massage" placeholder="Введіть текст"></textarea>
+          <input type="checkbox" />
+        </div>
       </div>
     </div>
+
     <script src="./index.js"></script>
   </body>
 </html>
