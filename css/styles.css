@@ -957,13 +957,7 @@ body {
   background-color: #188CE8;
 }
 
-.form-checkbox {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 30px;
-  margin-top: 20px;
-}
+
 
 .form-checkbox-label {
   display: flex;
@@ -972,6 +966,9 @@ body {
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: var(--grey);
+  margin-bottom: 30px;
+    margin-top: 20px;
+    justify-content: center;
 }
 
 .custom-checkbox-icon {
