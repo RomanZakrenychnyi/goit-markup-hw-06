@@ -749,7 +749,6 @@ body {
 
 .email-input {
   display: flex;
-  flex-direction: column;
 }
 
 .footer-input {
@@ -772,6 +771,7 @@ body {
 }
 
 .submit-btn {
+  display: flex;
   font-weight: 700;
   line-height: 1.88;
   letter-spacing: 0.06em;
