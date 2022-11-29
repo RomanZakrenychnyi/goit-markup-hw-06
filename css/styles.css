@@ -767,7 +767,7 @@ body {
 }
 
 .footer-input:hover,
-.footerinput:focus {
+.footer-input:focus {
   border-color: var(--blue);
 }
 
